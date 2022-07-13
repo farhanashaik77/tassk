@@ -1,0 +1,182 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: #040c24;
+
+  color: #f2f2f2;
+}
+
+input[type="search"] {
+  background: #555 url(http://hp-proliant.co.uk/qual_images/mob-search-icon.png)
+    no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 100%;
+}
+input[type="search"]:focus {
+  width: 600px;
+  background-color: #ccc;
+  border-color: #333;
+  border: solid 1px #fff;
+}
+
+.navbar-brand img {
+  width: 170px;
+}
+.card {
+  background: linear-gradient(to top, #244168 0%, #213b60 100%);
+}
+.cardfooter h5 {
+  color: #fff;
+}
+.fa-play-circle:before {
+  color: #ff8965;
+  font-size: 25px;
+}
+.bannerwrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-footer {
+  background: linear-gradient(to top, #244067 0%, #1b2e4e 100%);
+}
+
+.card-footer h5 {
+  color: #fff;
+}
+
+.card {
+  border: unset;
+  margin-bottom: 50px;
+}
+.card img {
+  height: 150px;
+}
+.card-footer {
+  font-size: 1em;
+  position: static;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 0.75em 1em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.container {
+  padding-left: 60px;
+}
+h2 {
+  font-style: italic;
+}
+
+/* Footer Bottom */
+
+.footer-bottom {
+  padding: 30px 0;
+  border-top: 1px solid #e7e7e7;
+  background: #040c24;
+}
+
+footer.bg-dark .footer-bottom {
+  border-top: 1px solid #000;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4),
+    inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.footer-bottom li {
+  display: inline-block;
+}
+
+.footer-bottom .text-right li {
+  margin-left: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+/*-------------pagination----------*/
+[data-pagination],
+[data-pagination] *,
+[data-pagination] *:before,
+[data-pagination] *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+[data-pagination] {
+  font-size: 8pt;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Open Sans", "Source Sans Pro", Roboto, "HelveticaNeue-Light",
+    "Helvetica Neue Light", "Helvetica Neue", "Myriad Pro", "Segoe UI", Myriad,
+    Helvetica, "Lucida Grande", "DejaVu Sans Condensed", "Liberation Sans",
+    "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  margin: 1em auto;
+  text-align: center;
+  transition: font-size 0.2s ease-in-out;
+}
+[data-pagination] ul {
+  list-style-type: none;
+  display: inline;
+  font-size: 100%;
+  margin: 0;
+  padding: 0.5em;
+}
+[data-pagination] ul li {
+  display: inline-block;
+  font-size: 100%;
+  width: auto;
+  border-radius: 3px;
+}
+[data-pagination] > a {
+  font-size: 140%;
+}
+[data-pagination] a {
+  color: #777;
+  font-size: 100%;
+  padding: 0.5em;
+}
+[data-pagination] a:focus,
+[data-pagination] a:hover {
+  color: #f60;
+}
+[data-pagination] li.current {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* Disabled & Hidden Styles */
+[data-pagination] .disabled,
+[data-pagination] [hidden],
+[data-pagination] [disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+@media (min-width: 350px) {
+  [data-pagination] {
+    font-size: 10pt;
+  }
+}
+@media (min-width: 500px) {
+  [data-pagination] {
+    font-size: 12pt;
+  }
+}
+@media (min-width: 700px) {
+  [data-pagination] {
+    font-size: 14pt;
+  }
+}
+@media (min-width: 900px) {
+  [data-pagination] {
+    font-size: 16pt;
+  }
+}
